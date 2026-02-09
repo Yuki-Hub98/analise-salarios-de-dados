@@ -13,12 +13,6 @@ Para rodar o projeto localmente, é necessário:
 * Criar um ambiente virtual Python (**venv**)
 * Instalar as dependências listadas no arquivo **requirements.txt**
 
-```bash
-pandas==2.2.3 
-streamlit==1.44.1 
-plotly==5.24.1
-```
-
 Esses passos garantem que o projeto funcione corretamente e de forma isolada do restante do sistema.
 
 ---
