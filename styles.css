@@ -1,0 +1,36 @@
+/* Chips selecionados (multiselect) */
+section[data-testid="stSidebar"] span[data-baseweb="tag"] {
+    background-color: #2d9f6d !important;
+    color: white !important;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Ícone de remover (x) */
+section[data-testid="stSidebar"] span[data-baseweb="tag"] svg {
+    fill: white !important;
+}
+
+/* Hover do chip */
+section[data-testid="stSidebar"] span[data-baseweb="tag"]:hover {
+    background-color: #1a6b47 !important;
+}
+
+/* Cards (KPIs) */
+[data-testid="metric-container"] {
+    background-color: white;
+    border-left: 6px solid #2d9f6d;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+}
+
+[data-testid="metric-container"] label {
+    font-size: 14px;
+    color: #6b9080;
+}
+
+/* Dataframe */
+.stDataFrame {
+    background-color: white;
+}
